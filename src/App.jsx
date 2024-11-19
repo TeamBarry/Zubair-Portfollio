@@ -8,7 +8,7 @@ import {About , Contact , Experience , Feedbacks , Hero ,Navbar ,Tech , Works , 
    <div  className="relative bg-primary" >
      <div className="bg-hero-pattern bg-cover bg-no-repeat"
               style={{
-                backgroundImage: 'url(/src/assets/herobg.png)',
+                backgroundImage: 'url(/src/assets/download.png)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',

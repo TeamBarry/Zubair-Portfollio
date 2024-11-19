@@ -109,4 +109,4 @@ className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] '
   )
 }
 
-export default SectionWrapper(Contact , "")
+export default SectionWrapper(Contact , "contact")

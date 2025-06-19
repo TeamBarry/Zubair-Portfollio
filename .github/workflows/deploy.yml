@@ -1,3 +1,50 @@
+# name: Deploy
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   build:
+#     name: Build
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v3
+
+#       - name: Setup Node
+#         uses: actions/setup-node@v3
+
+#       - name: Install dependencies
+#         uses: bahmutov/npm-install@v1
+
+#       - name: Build project
+#         run: npm run build
+
+#       - name: Upload production-ready build files
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: production-files
+#           path: ./dist
+
+#   deploy:
+#     name: Deploy
+#     needs: build
+#     runs-on: ubuntu-latest
+#     if: github.ref == 'refs/heads/main'
+
+#     steps:
+#       - name: Download artifact
+#         uses: actions/download-artifact@v4
+#         with:
+#           name: production-files
+#           path: ./dist
+
+
+
+
 name: Deploy
 
 on:
@@ -7,40 +54,57 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: 🔧 Build Project
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: 📥 Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Node
+      - name: 🧱 Setup Node.js
         uses: actions/setup-node@v3
+        with:
+          node-version: 18 # or your project's version
 
-      - name: Install dependencies
+      - name: ♻️ Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: 📦 Install Dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: Build project
+      - name: 🛠️ Build Project
         run: npm run build
 
-      - name: Upload production-ready build files
+      - name: 📤 Upload Production Build
         uses: actions/upload-artifact@v4
         with:
           name: production-files
           path: ./dist
 
   deploy:
-    name: Deploy
+    name: 🚀 Deploy to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
     steps:
-      - name: Download artifact
+      - name: 📥 Download Artifact
         uses: actions/download-artifact@v4
         with:
           name: production-files
           path: ./dist
+
+      - name: 🌐 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

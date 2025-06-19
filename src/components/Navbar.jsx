@@ -18,7 +18,7 @@ const [toggle, setToggle] = useState(false);
 <Link  to="/" className='flex items-center gap-2' onClick={()=>{setActive(''); window.scrollTo(0,0);}} >
 
 <img src={logo} alt="logo" className='w-9 h-8 object-contain rounded-[100px] ' />
-<p className='text-white text-[18px] font-bold cursor-pointer flex '  >Barry &nbsp;<span className='sm:block hidden' >| JavaScript Mastery </span> </p>
+<p className='text-white text-[18px] font-bold cursor-pointer flex '  >Team Barry &nbsp;<span className='sm:block hidden' > </span> </p>
 </Link>
 <ul className='list-none hidden sm:flex flex-row gap-10' >
 

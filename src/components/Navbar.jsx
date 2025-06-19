@@ -5,7 +5,7 @@ import { styles } from '../styles'
 import { navLinks } from '../constants'
 import {logo , menu , close } from '../assets'
 import { li } from 'framer-motion/client'
-
+import mainlogo from '../assets/main-logo.png'
 
 const Navbar = () => {
   const [active ,setActive] = useState('');
@@ -17,7 +17,7 @@ const [toggle, setToggle] = useState(false);
 <div className='w-full flex justify-between items-center max-w-7xl mx-auto' >
 <Link  to="/" className='flex items-center gap-2' onClick={()=>{setActive(''); window.scrollTo(0,0);}} >
 
-<img src={logo} alt="logo" className='w-9 h-8 object-contain rounded-[100px] ' />
+<img src={mainlogo} alt="logo" className='w-9 h-8 object-contain rounded-[100px] ' />
 <p className='text-white text-[18px] font-bold cursor-pointer flex '  >Team Barry &nbsp;<span className='sm:block hidden' > </span> </p>
 </Link>
 <ul className='list-none hidden sm:flex flex-row gap-10' >

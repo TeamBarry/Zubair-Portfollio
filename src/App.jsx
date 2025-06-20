@@ -6,10 +6,11 @@ import {About , Contact , Experience , Feedbacks , Hero ,Navbar ,Tech , Works , 
   return (
     <BrowserRouter>
    <div  className="relative bg-primary" >
-     <div className="bg-hero-pattern bg-cover bg-no-repeat"
+     <div 
           
     
     >
+{/*       className="bg-hero-pattern bg-cover bg-no-repeat" */}
       <Navbar/>
       <Hero/>
 

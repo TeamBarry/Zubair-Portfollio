@@ -19,10 +19,10 @@ import {About , Contact , Experience , Feedbacks , Hero ,Navbar ,Tech , Works , 
 <Tech/>
 <Works/>
 <Feedbacks/>
-{/* <div className="relative z-0"  >
+<div className="relative z-0"  >
   <Contact/>
 <StarsCanvas/>
-</div> */}
+</div>
    </div>
     </BrowserRouter>
   )

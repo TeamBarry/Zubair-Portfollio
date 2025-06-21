@@ -48,7 +48,13 @@ const About = () => {
 </motion.div>
 
 <motion.p  variants={("" , "" , 0.1 , 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]' >
-     I'm a skilled software developer with experience in JavaScript , and expertise in frameworks like React , Node.js. I'm a quick learner and collaborate closely with clients to create efficient , scalable, and user-friendly solutions that solve real-world problems. Lets work together to bring tour ideas to life!  
+{/*      I'm a skilled software developer with experience in JavaScript , and expertise in frameworks like React , Node.js. I'm a quick learner and collaborate closely with clients to create efficient , scalable, and user-friendly solutions that solve real-world problems. Lets work together to bring tour ideas to life!   */}
+I'm a full stack web developer with a passion for building fast, responsive, and scalable web applications.  
+With a degree in Computer Science and professional training from UET Lahore, I specialize in both frontend and backend development using the MERN stack (MongoDB, Express, React, Node.js).
+
+As the founder of Team Barry, I collaborate with clients and startups to deliver clean code, modern UI, and real-world solutions — from custom dashboards to full-featured business platforms.
+
+🚀 Let’s bring your ideas to life with clean, efficient, and future-ready code.
 </motion.p>
 <div className='mt-20 flex flex-wrap gap-10' >
        { 

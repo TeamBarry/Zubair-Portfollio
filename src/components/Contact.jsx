@@ -79,7 +79,7 @@ className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
   <div style={{ marginTop: "30px", lineHeight: "2" }}>
     <p><strong>Email:</strong> <a href="mailto:zubair@teambarry.blog" style={{ color: "#ffffff", textDecoration: "underline" }}>zubair@teambarry.blog</a></p>
     <p><strong>WhatsApp:</strong> <a href="https://wa.me/+923134503611" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "underline" }}>+92 3134503611</a></p>
-
+</div>
 {/* 
 <div style={{ backgroundColor: "#110d26", color: "#ffffff", padding: "50px 20px", fontFamily: "sans-serif" }}>
   <h2 style={{ fontSize: "32px", marginBottom: "20px", color: "#A37CF0" }}>📞 Contact Me</h2>

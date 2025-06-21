@@ -72,7 +72,38 @@ className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
 <p className={styles.sectionSubText}>Get in Touch</p>
 <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-<form action="" ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8' >
+
+
+<div style={{ backgroundColor: "#110d26", color: "#ffffff", padding: "50px 20px", fontFamily: "sans-serif" }}>
+  <h2 style={{ fontSize: "32px", marginBottom: "20px", color: "#A37CF0" }}>📞 Contact Me</h2>
+
+  <p style={{ marginBottom: "10px" }}>
+    Feel free to reach out for project inquiries, collaborations, or just to say hello!
+  </p>
+
+  <div style={{ marginTop: "30px", lineHeight: "2" }}>
+    <p><strong>Email:</strong> <a href="mailto:zubair@teambarry.blog" style={{ color: "#ffffff", textDecoration: "underline" }}>zubair@teambarry.blog</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/923001234567" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "underline" }}>+92 300 1234567</a></p>
+    <p><strong>Location:</strong> Lahore, Pakistan (Available for Remote Work)</p>
+    <p><strong>Working Hours:</strong> Mon – Sat | 10:00 AM – 7:00 PM (PKT)</p>
+  </div>
+
+  <div style={{ marginTop: "40px" }}>
+    <h3 style={{ color: "#A37CF0", fontSize: "24px", marginBottom: "10px" }}>📬 Send Me a Message</h3>
+    <form style={{ maxWidth: "500px" }}>
+      <input type="text" placeholder="Your Name" required style={{ width: "100%", padding: "12px", marginBottom: "10px", borderRadius: "5px", border: "none", backgroundColor: "#1a132f", color: "#ffffff" }} />
+      <input type="email" placeholder="Your Email" required style={{ width: "100%", padding: "12px", marginBottom: "10px", borderRadius: "5px", border: "none", backgroundColor: "#1a132f", color: "#ffffff" }} />
+      <textarea placeholder="Your Message" rows="5" required style={{ width: "100%", padding: "12px", marginBottom: "10px", borderRadius: "5px", border: "none", backgroundColor: "#1a132f", color: "#ffffff" }}></textarea>
+      <button type="submit" style={{ backgroundColor: "#A37CF0", color: "#ffffff", padding: "12px 20px", border: "none", borderRadius: "5px", cursor: "pointer" }}>
+        Send Message
+      </button>
+    </form>
+  </div>
+</div>
+
+
+ 
+{/* <form action="" ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8' >
 
 <label htmlFor="" className='flex flex-col ' >
   <span className='text-white font-medium mb-4 ' > Your Name </span>
@@ -94,8 +125,11 @@ className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
 {loading ? 'Sending...' : 'Send' }
 </button>
   
-</form>
+</form> */}
 
+
+
+ 
 </motion.div>
 <motion.div 
 variants={slideIn ('right' , "tween" , 0.2 , )}

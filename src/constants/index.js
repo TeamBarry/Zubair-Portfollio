@@ -204,7 +204,7 @@ import {
     {
       name: "SMM World Booster",
       description:
-        "SMM World Booster is a full-featured Social Media Marketing (SMM) panel designed to provide services across platforms like TikTok, YouTube, Instagram, Facebook, and more. This project was developed as a scalable, user-friendly web application where users can purchase digital services such as followers, likes, views, watch time, and engagement boosts. The system includes secure authentication, live order tracking, service management, and user wallet/balance functionality.",
+        "SMM World Booster is a full-featured Social Media Marketing (SMM) panel designed to provide services across platforms like TikTok, YouTube, Instagram, Facebook, and more. This project was developed as a scalable, user-friendly web application where users can purchase digital services.",
       tags: [
         {
           name: "react",

@@ -73,7 +73,7 @@ className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
 <h3 className={styles.sectionHeadText}>Contact.</h3>
 
 
-
+{/* 
 <div style={{ backgroundColor: "#110d26", color: "#ffffff", padding: "50px 20px", fontFamily: "sans-serif" }}>
   <h2 style={{ fontSize: "32px", marginBottom: "20px", color: "#A37CF0" }}>📞 Contact Me</h2>
 
@@ -101,9 +101,12 @@ className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
   </div>
 </div>
 
+ */}
+
 
  
-{/* <form action="" ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8' >
+ 
+<form action="" ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8' >
 
 <label htmlFor="" className='flex flex-col ' >
   <span className='text-white font-medium mb-4 ' > Your Name </span>
@@ -125,7 +128,7 @@ className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
 {loading ? 'Sending...' : 'Send' }
 </button>
   
-</form> */}
+</form>
 
 
 

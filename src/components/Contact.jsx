@@ -33,8 +33,8 @@ const handleSubmit = (e) =>{
 // 
 // zBv6BwoyaAfsb-7os
          emailjs.send(
-          'service_iv9d9xf',
-          'template_o0kyhjm',
+          'service_3323goa',
+          'template_4bo5xqn',
           {
             from_name : form.name,
             to_name : 'Barry',
@@ -44,7 +44,7 @@ const handleSubmit = (e) =>{
             message : form.message,
 
           },
-          'zBv6BwoyaAfsb-7os'
+          'hdYsjWZbDbAwo9j-_'
          )
          .then(()=>{
           setLoading(false);

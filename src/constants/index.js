@@ -115,6 +115,8 @@ import {
   ];
   
   const experiences = [
+
+      
     {
       title: "React.js Developer",
       company_name: "E-Commerence",
@@ -172,7 +174,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Zubair proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,7 +182,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Team Barry does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +190,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Zubair optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -197,6 +199,31 @@ import {
   ];
   
   const projects = [
+
+    {
+      name: "SMM World Booster",
+      description:
+        "SMM World Booster is a full-featured Social Media Marketing (SMM) panel designed to provide services across platforms like TikTok, YouTube, Instagram, Facebook, and more. This project was developed as a scalable, user-friendly web application where users can purchase digital services such as followers, likes, views, watch time, and engagement boosts. The system includes secure authentication, live order tracking, service management, and user wallet/balance functionality.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://smmworldbooster.com/",
+    },
+
+
+      
     {
       name: "Shooping Website",
       description:
@@ -216,7 +243,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://barry210-hub.github.io/vite-react-deploy/",
+      source_code_link: "https://teambarry.github.io/vite-react-deploy/",
     },
     {
       name: "Food del",
@@ -237,7 +264,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TeamBarry",
     },
     {
       name: "Trip Guide",
@@ -258,7 +285,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TeamBarry",
     },
   ];
   

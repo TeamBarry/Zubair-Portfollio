@@ -1,7 +1,8 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
+import person from "../assets/person.png";
 
 
 

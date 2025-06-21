@@ -72,6 +72,13 @@ className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
 <p className={styles.sectionSubText}>Get in Touch</p>
 <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+ <p style={{ marginBottom: "10px" }}>
+    Feel free to reach out for project inquiries, collaborations, or just to say hello!
+  </p>
+
+  <div style={{ marginTop: "30px", lineHeight: "2" }}>
+    <p><strong>Email:</strong> <a href="mailto:zubair@teambarry.blog" style={{ color: "#ffffff", textDecoration: "underline" }}>zubair@teambarry.blog</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/+923134503611" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff", textDecoration: "underline" }}>+92 3134503611</a></p>
 
 {/* 
 <div style={{ backgroundColor: "#110d26", color: "#ffffff", padding: "50px 20px", fontFamily: "sans-serif" }}>

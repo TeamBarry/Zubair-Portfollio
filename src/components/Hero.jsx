@@ -96,7 +96,7 @@ const Hero = () => {
 
       {/* Mobile view - Image at bottom */}
       {isMobile && (
-        <div className="absolute bottom-[130px] left-0 right-0 flex justify-center">
+        <div className="absolute bottom-[170px] left-0 right-0 flex justify-center">
           <div className="relative w-48 h-48 group">
             <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-[#915eff]/30">
               <img

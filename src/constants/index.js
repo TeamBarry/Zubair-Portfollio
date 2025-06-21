@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    smm,
   } from "../assets";
   
   export const navLinks = [
@@ -218,7 +219,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: smm,
       source_code_link: "https://smmworldbooster.com/",
     },
 

@@ -8,7 +8,7 @@ import {About , Contact , Experience , Feedbacks , Hero ,Navbar ,Tech , Works , 
    <div  className="relative bg-primary" >
      <div className="bg-hero-pattern bg-cover bg-no-repeat" >
 <a
-  href="https://wa.me/923001234567"
+  href="https://wa.me/+923134503611"
   target="_blank"
   rel="noopener noreferrer"
   style={{
